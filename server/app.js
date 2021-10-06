@@ -1,7 +1,7 @@
 let express = require('express');
 let app = express();
 const path = require('path');
-let nodemailer = require('nodemailer');
+let nodemailer = require('nodemailer'); //https://github.com/ishan-me/React_node_email/blob/master/frontend/src/components/requestAccess.js
 
 // Static folder
 app.use('/public', express.static(path.join(__dirname, 'public')));
